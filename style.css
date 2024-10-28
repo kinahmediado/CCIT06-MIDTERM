@@ -1,0 +1,161 @@
+#banner {
+    height: 90vh;
+    background: linear-gradient(to right, hsla(0, 38%, 85%, 0.5), rgba(149, 223, 11, 0.315)), url('b.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   } 
+
+.btn {
+    padding:15px 30px;
+    font-weight: 900;
+    letter-spacing: 0.5;
+    border-radius: 60;
+   }
+
+   .btn-brand{
+    background-color: rgb(57, 145, 57);
+    color: #0c0404;
+    border: 2px solid #0a0a0a;
+   }
+
+   .btn-brand.hover{
+    border: 2px solid #df6363;
+   }
+
+   section {
+    padding: 100px 0;
+    background-color: #ad8462;
+   }
+
+   #service {
+    background-color: rgb(243, 202, 147);
+   }
+
+
+   .card-img-top{
+    width: 40%;
+   }
+
+   .card{
+    transition: all 0.4s ease;
+   }
+
+   .card:hover{
+    background-color: rgb(82, 170, 11);
+   }
+
+   .card:hover .card-text, .card:hover .card-title{
+    color: #0c0404;
+   }
+
+   #services .btn-brand.hover{
+    background-color: #fff !important;
+    color: rgb(243, 202, 147);
+   }
+
+   .testimonials img{
+    width: 75px;
+    border-radius: 50%;
+   }
+
+   .testimonials {
+    border: 2px solid rgb(243, 202, 147);
+    padding: 30px;
+    border-radius: 30px;
+    margin-top: 20px;
+   }
+
+   .testimonials a {
+    color: rgb(243, 202, 147);
+   }
+
+   #fag {
+    background-color: #ffc88a;
+   }
+
+.fag-section {
+    max-width: 800px;
+    margin: auto;
+}
+
+.accordion-item {
+    margin-bottom: 20px;
+    border-radius: 0 !important;
+}
+
+.accordion-button{
+    background-color: #b36a2e;
+    border: none;
+    border-bottom: 1px solid floralwhite;
+    border-radius: 0 !important;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.accordion-body{
+    border-left: 3px solid rgb(231, 194, 164);
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: bisque;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: rgb(243, 202, 147);
+    color: floralwhite;
+}
+
+.accordion-button:hover{
+    background-color: rgb(231, 194, 164);
+    color: antiquewhite;
+}
+#cta {
+    height: 70vh;
+    background: linear-gradient(to right, hsla(0, 38%, 85%, 0.5), rgba(149, 223, 11, 0.315)), url('b.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   } 
+   footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: linear-gradient(to right, hsla(0, 2%, 62%, 0.856), rgba(238, 90, 90, 0.315));
+    background-color: blanchedalmond;
+}
+
+#footer ul.list-unstyled li a{
+ color: rgb(87, 84, 84);
+text-decoration: none;
+}
+
+#footer ul.list-unstyled li:hover a{
+     color: rgb(87, 84, 84);
+    
+}
+
+.btn-outline-light{
+    border-color: rgb(0, 0, 0);
+     color: rgb(87, 84, 84);
+    border-radius: 0;
+}
+
+@media screen and (max-width:767px){
+    #about img{
+        height: 300px;
+        width: 300px;
+    }
+    #services .card{
+        margin-top: 20px;
+    }
+    section {
+        padding: 60px 20px;
+    }
+    
+}
+
+
+   
